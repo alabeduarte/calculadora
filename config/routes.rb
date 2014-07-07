@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   get 'calculadora_machine/index'
+  get 'calculadora_machine/new'
+  post 'calculadora_machine/create'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
