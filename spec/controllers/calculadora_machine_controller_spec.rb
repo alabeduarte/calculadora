@@ -20,7 +20,7 @@ RSpec.describe CalculadoraMachineController, :type => :controller do
       post :create, calculadora_machine: { a: 2, b: 4 }
 
       expect(response).to redirect_to "/calculadora_machine/index"
-      expect(assigns :result).to eq 10
+      expect(assigns :result).to eq 6
     end
   end
 
